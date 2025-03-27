@@ -51,7 +51,7 @@ const EditTodo=(id)=>{
       <div className="border p-10 text-center">
         <h1 className="text-3xl font-bold ">Todo List</h1>
         <div>
-          <input type="text" value={addtodo} onChange={(e)=>setAddtodo(e.target.value)} placeholder="Enter Your Name"  className="outline-none sm:w-80"/>
+          <input type="text" value={addtodo} onChange={(e)=>setAddtodo(e.target.value)} placeholder="Enter Your Name"  className="outline-none w-40 sm:w-80"/>
           <button className="py-1 px-3 bg-[#0af034]" onClick={addTodohandle}>{editid ? 'Updata' : 'add'}</button>
         </div>
         <ul className="mt-3">
